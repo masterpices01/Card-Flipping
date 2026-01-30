@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "MyNewGame",
-    "slug": "MyNewGame",
+    "name": "Flipit",
+    "slug": "Flipit",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
@@ -20,10 +20,20 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.pufferfishmaster.Flipit"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+        
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "static",
+  "baseUrl": ""
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8fb2cddb-a0ad-477c-8958-4b48e966c353"
+      }
     }
   }
 }
