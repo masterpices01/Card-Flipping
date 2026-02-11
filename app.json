@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Flipit",
+    "slug": "Flipit",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.pufferfishmaster.Flipit"
+    },
+    "web": {
+        
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single",
+  "baseUrl": ""
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8fb2cddb-a0ad-477c-8958-4b48e966c353"
+      }
+    }
+  }
+}
